@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>RPGっぽいサンプル</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>RPGっぽいサンプル</h1>
+  <div id="game"></div>
+  <div id="status"></div>
+  <div id="battle" style="display:none;">
+    <h2 id="battle-title"></h2>
+    <div id="battle-log"></div>
+    <button id="attackBtn">攻撃</button>
+    <button id="healBtn">回復</button>
+    <button id="battleEndBtn" style="display:none;">バトル終了</button>
+  </div>
+  <p>※カーソルキーでキャラを移動</p>
+  <script src="game.js"></script>
+</body>
+</html>
